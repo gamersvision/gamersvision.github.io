@@ -373,18 +373,20 @@ a:focus {
 
 .hero-carousel .carousel-inner .item-1 {
   background-image: url("../images/gameName (2).png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .hero-carousel .carousel-inner .item-2 {
   background-image: url("../images/logo (2).png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .hero-carousel .carousel-inner .heading {
@@ -517,10 +519,10 @@ a:focus {
 /* ======= Testimonials Section ======= */
 .testimonials-section {
   background: #494043 url("../images/map.png") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
   padding-top: 90px;
   padding-bottom: 90px;
 }
