@@ -1,11 +1,3 @@
-/*
- * Template Name: Appkit Landing - Responsive Website Template for Developers
- * Version: 2.1
- * Author: Xiaoying Riley
- * Twitter: @3rdwave_themes
- * License: Creative Commons Attribution 3.0 License
- * Website: https://themes.3rdwavemedia.com/
-*/
 body {
   font-family: 'Open Sans', arial, sans-serif;
   color: #494d55;
@@ -372,7 +364,7 @@ a:focus {
 }
 
 .hero-carousel .carousel-inner .item-1 {
-  background-image: url("../images/gameName (2).png");
+  background-image: url("../images/gameName (2).png") ;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -869,22 +861,28 @@ a:focus {
   color: #fff;
 }
 
-.team-section .social a.google {
-  background: #dd4b39;
-}
 
-.team-section .social a.google:hover {
-  background: #d73925;
-}
-
-.team-section .social a.twitter {
+.team-section .social a.linkedin {
   background: #55acee;
 }
 
-.team-section .social a.twitter:hover {
+.team-section .social a.linkedin:hover {
   background: #3ea1ec;
 }
+.team-section .social a.instagram {
+  background: #f58529;
+}
 
+.team-section .social a.instagram:hover {
+  background: #f58590;
+}
+.team-section .social a.email {
+  background: #d44638;
+}
+
+.team-section .social a.email:hover {
+  background: #b23121;
+}
 .team-section .social a.facebook {
   background: #3b5998;
 }
@@ -988,7 +986,7 @@ a:focus {
   }
 
   .hero-carousel .carousel-inner .item-content-inner {
-    padding-top: 100px;
+    padding-top: 380px;
   }
 
   .hero-section .figure-holder .figure-image {
@@ -1053,7 +1051,7 @@ a:focus {
 
   .hero-carousel .carousel-inner .item-content-inner {
     max-width: 300px;
-    padding-top: 120px;
+    padding-top: 290px;
   }
 }
 
@@ -1075,6 +1073,7 @@ a:focus {
 
   .hero-carousel .carousel-inner .item-content-inner {
     max-width: 500px;
+      padding-top: 350px;
   }
 }
 
